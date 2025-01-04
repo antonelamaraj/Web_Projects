@@ -11,7 +11,7 @@ BookPage is a web project that showcases a collection of books. It includes feat
 ## Technologies Used
 - HTML
 - CSS
-- 
+
 ## Setup
 To run this project locally:
 1. Clone the repository:
