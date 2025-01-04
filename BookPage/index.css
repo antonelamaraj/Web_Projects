@@ -7,7 +7,7 @@
 
 /* Styling the navigation container */
 nav {
-  background-color: #fff; /* Dark background color */
+  background-color: #fff; 
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -51,22 +51,22 @@ nav ul li {
   margin: 0 15px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: white; /* Default text color */
+  color: white; 
 }
 
-/* Styling for the anchor tags */
+
 nav ul li a {
-  text-decoration: none; /* Removes underline */
+  text-decoration: none;
   color: black;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 /* Highlight effect on hover */
 nav ul li a:hover {
-  background-color: #555; /* Slightly lighter background */
-  color: #ddd; /* Softer text color */
+  background-color: #555;
+  color: #ddd; 
 }
 
 /*Seksioni i pare    rgb(254, 245, 203);*/
@@ -77,7 +77,7 @@ nav ul li a:hover {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  /* padding: 20px;  */
+ 
 }
 
 
@@ -98,12 +98,12 @@ nav ul li a:hover {
 
 .buttons {
   padding-top: 20px;
-  display: flex; /* Enables flexbox layout */
-  gap: 50px; /* Sets the gap between buttons */
+  display: flex; 
+  gap: 50px; 
 }
 button a {
   text-decoration: none;
-  color: white; /* Default text color */
+  color: white; 
 
 
 }
@@ -251,12 +251,12 @@ button a {
   gap: 15px;
 }
 .social-icons i {
-  font-size: 24px; /* Icon size */
-  color:  #946659;  /* Icon color */
-  background-color: white;  /* Black background */
-  padding: 10px; /* Add space around the icon */
-  border-radius: 50%; /* Circular background */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  font-size: 24px;
+  color:  #946659; 
+  background-color: white;  
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 
@@ -289,8 +289,8 @@ button a {
   margin-top: 50px;
 }
 .books-series ul {
-  display: flex; /* Enable flexbox for the images */
-  flex-wrap: wrap; /* Allow the images to wrap into multiple rows */
+  display: flex; 
+  flex-wrap: wrap; 
   justify-content: center;
   gap: 10px; 
   padding: 0;
@@ -439,10 +439,10 @@ button a {
 
 
 .section-todo .container {
-    display: flex; /* Enable Flexbox */
-    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
-    justify-content: space-around; /* Distribute items evenly */
-    gap: 20px; /* Add space between the reviews */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
     align-items: center;
     margin-top: 60px;
     margin-right: 200px;
@@ -451,21 +451,10 @@ button a {
 
 
 .section-todo .container .reviews {
-  flex: 1 1 calc(35% - 40px); /* Each review takes up 50% of the container width, minus gap space */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
-  margin-bottom: 20px; /* Add space below each review for vertical gap */
+  flex: 1 1 calc(35% - 40px); 
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
   /*****************************************Seksioni i peste ********************************************/
@@ -594,8 +583,8 @@ button a {
 }
 
 .books ul {
-  display: flex; /* Enable flexbox for the images */
-  flex-wrap: wrap; /* Allow the images to wrap into multiple rows */
+  display: flex; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px; 
   padding: 0;
@@ -658,16 +647,16 @@ footer nav ul li {
   margin: 0 15px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: white; /* Default text color */
+  color: white;
 }
 
 /* Styling for the anchor tags */
 footer nav ul li a {
-  text-decoration: none; /* Removes underline */
+  text-decoration: none;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 
