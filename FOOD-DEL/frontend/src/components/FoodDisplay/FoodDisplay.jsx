@@ -4,19 +4,28 @@ import { StoreContext } from "../../context/StoreContext";
 import FoodItem from "../FoodItem/FoodItem";
 
 
-const FoodDisplay = (category) =>{
+const FoodDisplay = ({category}) =>{
 
   const {food_list} = useContext(StoreContext)
 
-  return(
+   // Debugging: Log the category and food list to check their values
+   console.log('Selected category:', category);
+   console.log('Food list:', food_list);
 
+   
+  return(
     <div className="food-display" id="food-display">
       <h2>Top dishes near you</h2>
 
         <div className="food-display-list">
             {
               food_list.map((item, index)=> {
-                return <FoodItem key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image} />
+            {console.log(category, item.category);}
+
+                if (category==="All" || category===item.category) {
+                     return <FoodItem key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image} />
+                }
+              
               })
             }
         </div>
