@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import LoginPopUp from './components/LoginPopUp/LoginPopUp';
 
 
+/* Mbetur te min 02:40 -Cart  */
+
 const App = () => {
 
   const [showLogin, setShowLogin] = useState(false);
